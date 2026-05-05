@@ -1,0 +1,45 @@
+relationship 61f9b5b5-9006-4bd6-97f9-07bd5368d17e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_publicacion_del
+	toColumn: LocalDateTable_263513a6-7095-495a-ace0-27889c4dbc47.Date
+
+relationship ca024c80-bbd4-4f45-a695-baa6edc7bb08
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_ultima_publicaci
+	toColumn: LocalDateTable_eaf087c0-b6f7-466f-a16b-b33538e330d2.Date
+
+relationship 28b4d7ec-f752-423f-bcef-fceace2afee9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_publicacion_fase_3
+	toColumn: LocalDateTable_c999a0ac-e5c2-42fb-b921-a1da644eaa5b.Date
+
+relationship 05b3b04b-59c7-49a5-a72f-08c6863bf146
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_publicacion_fase_2
+	toColumn: LocalDateTable_4661249c-f9d6-4011-bc22-b01eb3f0722a.Date
+
+relationship ad1457e0-1c6d-4543-8f66-d2e487436971
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_publicacion
+	toColumn: LocalDateTable_acf26443-ae71-4551-b0d2-ee756a42698b.Date
+
+relationship e8354ccc-096d-47e0-b005-9a5284862b90
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_recepcion_de
+	toColumn: LocalDateTable_2753b114-950b-46f6-b869-7ac2b6d131b7.Date
+
+relationship 0e86f685-987f-4977-8fab-283f23d0d257
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_apertura_de_respuesta
+	toColumn: LocalDateTable_bc3cef75-0f0c-4376-be86-9ea4a3f9b8f0.Date
+
+relationship 609014e4-7b4f-4a88-9255-c6105e05e01e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_de_apertura_efectiva
+	toColumn: LocalDateTable_cb922931-2765-4103-bec5-8113e35e4ff9.Date
+
+relationship 2e32b039-ca33-45a4-83df-f5346d485e91
+	joinOnDateBehavior: datePartOnly
+	fromColumn: p6dx-8zbt.fecha_adjudicacion
+	toColumn: LocalDateTable_b4bd55e1-5789-4d35-9acb-b7b70b979018.Date
+

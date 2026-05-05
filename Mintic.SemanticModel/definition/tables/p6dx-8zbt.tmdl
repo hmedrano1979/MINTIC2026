@@ -1,0 +1,549 @@
+table p6dx-8zbt
+	lineageTag: e3f4acdf-bc0d-46e2-83f1-f51849cc958e
+
+	column entidad
+		dataType: string
+		lineageTag: 32e426e5-f043-42e2-bb9f-4d7177668643
+		summarizeBy: none
+		sourceColumn: entidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column nit_entidad
+		dataType: int64
+		formatString: 0
+		lineageTag: 4fad7878-1f04-4d4e-94aa-ec18af107526
+		summarizeBy: sum
+		sourceColumn: nit_entidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column departamento_entidad
+		dataType: string
+		lineageTag: fbcaf2ff-731c-4703-9060-eded7d6ee6f2
+		summarizeBy: none
+		sourceColumn: departamento_entidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column ciudad_entidad
+		dataType: string
+		lineageTag: ccaa43d8-c7d1-4752-a69c-1ac8b4122aa0
+		summarizeBy: none
+		sourceColumn: ciudad_entidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column ordenentidad
+		dataType: string
+		lineageTag: ccdb4228-543f-41a7-a0a0-212d32e71db9
+		summarizeBy: none
+		sourceColumn: ordenentidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigo_pci
+		dataType: string
+		lineageTag: 9fbbad6e-743d-4576-9c21-a2e707aa6937
+		summarizeBy: none
+		sourceColumn: codigo_pci
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_del_proceso
+		dataType: string
+		lineageTag: edbf39d2-bbcc-4094-a42f-62f29aae9f2d
+		summarizeBy: none
+		sourceColumn: id_del_proceso
+
+		annotation SummarizationSetBy = Automatic
+
+	column referencia_del_proceso
+		dataType: string
+		lineageTag: b3371ac9-ac0e-42bf-bc5a-9f501f61de06
+		summarizeBy: none
+		sourceColumn: referencia_del_proceso
+
+		annotation SummarizationSetBy = Automatic
+
+	column ppi
+		dataType: int64
+		formatString: 0
+		lineageTag: e6baccbf-7336-49af-a11f-740866846973
+		summarizeBy: sum
+		sourceColumn: ppi
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_del_portafolio
+		dataType: string
+		lineageTag: 1e52448b-0ac1-4a7d-9749-4ab7b6e1e088
+		summarizeBy: none
+		sourceColumn: id_del_portafolio
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_del_procedimiento
+		dataType: string
+		lineageTag: 69674b1d-af63-4d9b-8bab-5afb30b4494c
+		summarizeBy: none
+		sourceColumn: nombre_del_procedimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripci_n_del_procedimiento
+		dataType: string
+		lineageTag: a2d62029-c4d8-47fe-a7b3-eb2571ecf016
+		summarizeBy: none
+		sourceColumn: descripci_n_del_procedimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column fase
+		dataType: string
+		lineageTag: a780d2a0-d0c9-4746-b3a5-340ca7ddb14e
+		summarizeBy: none
+		sourceColumn: fase
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_publicacion_del
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 87f2ecda-acba-4316-a59d-a22c930853a7
+		summarizeBy: none
+		sourceColumn: fecha_de_publicacion_del
+
+		variation Variación
+			isDefault
+			relationship: 61f9b5b5-9006-4bd6-97f9-07bd5368d17e
+			defaultHierarchy: LocalDateTable_263513a6-7095-495a-ace0-27889c4dbc47.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_ultima_publicaci
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: d298889d-43c3-4d25-b308-02e8ac907ce6
+		summarizeBy: none
+		sourceColumn: fecha_de_ultima_publicaci
+
+		variation Variación
+			isDefault
+			relationship: ca024c80-bbd4-4f45-a695-baa6edc7bb08
+			defaultHierarchy: LocalDateTable_eaf087c0-b6f7-466f-a16b-b33538e330d2.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_publicacion_fase_3
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8770a579-c533-42b9-ba72-ddc8b52137ba
+		summarizeBy: none
+		sourceColumn: fecha_de_publicacion_fase_3
+
+		variation Variación
+			isDefault
+			relationship: 28b4d7ec-f752-423f-bcef-fceace2afee9
+			defaultHierarchy: LocalDateTable_c999a0ac-e5c2-42fb-b921-a1da644eaa5b.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_publicacion_fase_2
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 4fd8f1df-7253-4c14-8ce9-6aa4ff6a8449
+		summarizeBy: none
+		sourceColumn: fecha_de_publicacion_fase_2
+
+		variation Variación
+			isDefault
+			relationship: 05b3b04b-59c7-49a5-a72f-08c6863bf146
+			defaultHierarchy: LocalDateTable_4661249c-f9d6-4011-bc22-b01eb3f0722a.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_publicacion
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c0a143c1-a920-433d-a87e-88f4991cb21c
+		summarizeBy: none
+		sourceColumn: fecha_de_publicacion
+
+		variation Variación
+			isDefault
+			relationship: ad1457e0-1c6d-4543-8f66-d2e487436971
+			defaultHierarchy: LocalDateTable_acf26443-ae71-4551-b0d2-ee756a42698b.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column precio_base
+		dataType: decimal
+		formatString: \$\ #,0.###############;-\$\ #,0.###############;\$\ #,0.###############
+		lineageTag: 7d84c3dd-9d25-4a79-a576-00a637dbe00b
+		summarizeBy: sum
+		sourceColumn: precio_base
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-CO"}
+
+	column modalidad_de_contratacion
+		dataType: string
+		lineageTag: b29a5a21-8ed7-4a26-bf56-1dfe2801b627
+		summarizeBy: none
+		sourceColumn: modalidad_de_contratacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column justificaci_n_modalidad_de
+		dataType: string
+		lineageTag: 54793ddc-7fe6-4239-97ad-14afcaf3c58c
+		summarizeBy: none
+		sourceColumn: justificaci_n_modalidad_de
+
+		annotation SummarizationSetBy = Automatic
+
+	column duracion
+		dataType: int64
+		formatString: 0
+		lineageTag: 7a0c0885-4fb7-407f-b08d-a6ca524694dc
+		summarizeBy: sum
+		sourceColumn: duracion
+
+		annotation SummarizationSetBy = Automatic
+
+	column unidad_de_duracion
+		dataType: string
+		lineageTag: 7711925a-3ce6-4e26-a902-78a35c637a44
+		summarizeBy: none
+		sourceColumn: unidad_de_duracion
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_recepcion_de
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: f318ea19-fdf4-4e5d-b1dc-c409932c4d63
+		summarizeBy: none
+		sourceColumn: fecha_de_recepcion_de
+
+		variation Variación
+			isDefault
+			relationship: e8354ccc-096d-47e0-b005-9a5284862b90
+			defaultHierarchy: LocalDateTable_2753b114-950b-46f6-b869-7ac2b6d131b7.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_apertura_de_respuesta
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: bd31fbf8-51ab-486c-be10-15e1b81d5dbd
+		summarizeBy: none
+		sourceColumn: fecha_de_apertura_de_respuesta
+
+		variation Variación
+			isDefault
+			relationship: 0e86f685-987f-4977-8fab-283f23d0d257
+			defaultHierarchy: LocalDateTable_bc3cef75-0f0c-4376-be86-9ea4a3f9b8f0.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_de_apertura_efectiva
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c93ba0ea-8ef7-4460-b787-067f13f8ea92
+		summarizeBy: none
+		sourceColumn: fecha_de_apertura_efectiva
+
+		variation Variación
+			isDefault
+			relationship: 609014e4-7b4f-4a88-9255-c6105e05e01e
+			defaultHierarchy: LocalDateTable_cb922931-2765-4103-bec5-8113e35e4ff9.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ciudad_de_la_unidad_de
+		dataType: string
+		lineageTag: ab2634ad-a3ed-4cf3-be90-309308605195
+		summarizeBy: none
+		sourceColumn: ciudad_de_la_unidad_de
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_de_la_unidad_de
+		dataType: string
+		lineageTag: 0ac00691-7868-4464-8a98-29ee31c1eb90
+		summarizeBy: none
+		sourceColumn: nombre_de_la_unidad_de
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedores_invitados
+		dataType: int64
+		formatString: 0
+		lineageTag: 6dff5718-477e-4d6a-8ef5-25e90d338bab
+		summarizeBy: sum
+		sourceColumn: proveedores_invitados
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedores_con_invitacion
+		dataType: int64
+		formatString: 0
+		lineageTag: 9da627c6-9233-443e-b382-4d837fbd54c1
+		summarizeBy: sum
+		sourceColumn: proveedores_con_invitacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column visualizaciones_del
+		dataType: int64
+		formatString: 0
+		lineageTag: e44e2a50-d994-438f-84ca-58e580976549
+		summarizeBy: sum
+		sourceColumn: visualizaciones_del
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedores_que_manifestaron
+		dataType: int64
+		formatString: 0
+		lineageTag: d7dd061e-85a1-4772-885d-dab9363d95bd
+		summarizeBy: sum
+		sourceColumn: proveedores_que_manifestaron
+
+		annotation SummarizationSetBy = Automatic
+
+	column respuestas_al_procedimiento
+		dataType: int64
+		formatString: 0
+		lineageTag: 618e9f4b-8569-45d5-9a77-26bd5154f899
+		summarizeBy: sum
+		sourceColumn: respuestas_al_procedimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column respuestas_externas
+		dataType: int64
+		formatString: 0
+		lineageTag: 55a61fac-46a2-4227-80ad-d8a1402b7cf5
+		summarizeBy: sum
+		sourceColumn: respuestas_externas
+
+		annotation SummarizationSetBy = Automatic
+
+	column conteo_de_respuestas_a_ofertas
+		dataType: int64
+		formatString: 0
+		lineageTag: 0d692f0e-2ca0-40ba-9389-c2003c9cd634
+		summarizeBy: sum
+		sourceColumn: conteo_de_respuestas_a_ofertas
+
+		annotation SummarizationSetBy = Automatic
+
+	column proveedores_unicos_con
+		dataType: int64
+		formatString: 0
+		lineageTag: b349d98e-f8cf-4eec-b1da-526b6265796f
+		summarizeBy: sum
+		sourceColumn: proveedores_unicos_con
+
+		annotation SummarizationSetBy = Automatic
+
+	column numero_de_lotes
+		dataType: int64
+		formatString: 0
+		lineageTag: babd2b3b-3b1e-49e6-ad2b-92fcb0dccb74
+		summarizeBy: sum
+		sourceColumn: numero_de_lotes
+
+		annotation SummarizationSetBy = Automatic
+
+	column estado_del_procedimiento
+		dataType: string
+		lineageTag: a9446a9f-b276-4dda-90fe-321480b86bd5
+		summarizeBy: none
+		sourceColumn: estado_del_procedimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_estado_del_procedimiento
+		dataType: int64
+		formatString: 0
+		lineageTag: 35217ec8-5b52-4de7-b4c0-11866fbe758a
+		summarizeBy: sum
+		sourceColumn: id_estado_del_procedimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column adjudicado
+		dataType: string
+		lineageTag: 50982617-06b9-431d-acb4-8ed4c254231c
+		summarizeBy: none
+		sourceColumn: adjudicado
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_adjudicacion
+		dataType: string
+		lineageTag: 7feb0eb7-df1b-4992-9bc0-1b17658433bd
+		summarizeBy: none
+		sourceColumn: id_adjudicacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigoproveedor
+		dataType: string
+		lineageTag: 566aaf34-c89b-4671-9ffa-0146a7d02901
+		summarizeBy: none
+		sourceColumn: codigoproveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column departamento_proveedor
+		dataType: string
+		lineageTag: df53d96f-1173-4118-84ae-8fc2e1ec6fb9
+		summarizeBy: none
+		sourceColumn: departamento_proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column ciudad_proveedor
+		dataType: string
+		lineageTag: d2beca2c-d5ff-440d-b6e8-33b378063cf3
+		summarizeBy: none
+		sourceColumn: ciudad_proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_adjudicacion
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c374fdd6-6ce0-4d99-a46c-8377d42cde0c
+		summarizeBy: none
+		sourceColumn: fecha_adjudicacion
+
+		variation Variación
+			isDefault
+			relationship: 2e32b039-ca33-45a4-83df-f5346d485e91
+			defaultHierarchy: LocalDateTable_b4bd55e1-5789-4d35-9acb-b7b70b979018.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_total_adjudicacion
+		dataType: int64
+		formatString: 0
+		lineageTag: 9161e19c-36dd-4fde-aa9b-7e77770b9c6c
+		summarizeBy: sum
+		sourceColumn: valor_total_adjudicacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_del_adjudicador
+		dataType: string
+		lineageTag: f6d81bb4-7ddf-4d55-b668-991a279b8b14
+		summarizeBy: none
+		sourceColumn: nombre_del_adjudicador
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_del_proveedor
+		dataType: string
+		lineageTag: 71be796f-253a-4752-b343-9972562f9ead
+		summarizeBy: none
+		sourceColumn: nombre_del_proveedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column nit_del_proveedor_adjudicado
+		dataType: string
+		lineageTag: ad7c28c1-5862-403f-ba96-7644edc433aa
+		summarizeBy: none
+		sourceColumn: nit_del_proveedor_adjudicado
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigo_principal_de_categoria
+		dataType: string
+		lineageTag: b17cdfc5-2697-44d3-b7d5-eea642a55226
+		summarizeBy: none
+		sourceColumn: codigo_principal_de_categoria
+
+		annotation SummarizationSetBy = Automatic
+
+	column estado_de_apertura_del_proceso
+		dataType: string
+		lineageTag: 0b37670d-7096-4058-8226-45fb656c79e9
+		summarizeBy: none
+		sourceColumn: estado_de_apertura_del_proceso
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_de_contrato
+		dataType: string
+		lineageTag: 7885500a-f81a-4f61-843c-99dc1458859d
+		summarizeBy: none
+		sourceColumn: tipo_de_contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column subtipo_de_contrato
+		dataType: string
+		lineageTag: 79da06c4-ab77-4659-98c3-7e92707aaa6e
+		summarizeBy: none
+		sourceColumn: subtipo_de_contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column categorias_adicionales
+		dataType: string
+		lineageTag: 529d62ad-8f5e-496d-bb8a-403a3c3d3561
+		summarizeBy: none
+		sourceColumn: categorias_adicionales
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'urlproceso.url'
+		dataType: string
+		lineageTag: 8570196f-de50-46fc-9989-4e5747d6be4e
+		summarizeBy: none
+		sourceColumn: urlproceso.url
+
+		annotation SummarizationSetBy = Automatic
+
+	column codigo_entidad
+		dataType: int64
+		formatString: 0
+		lineageTag: 1722ccba-d871-45ca-9ad7-3d2e2be4dc82
+		summarizeBy: sum
+		sourceColumn: codigo_entidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column estado_resumen
+		dataType: string
+		lineageTag: 23caf1d5-053f-4a26-8a5c-adc56a2b7bcb
+		summarizeBy: none
+		sourceColumn: estado_resumen
+
+		annotation SummarizationSetBy = Automatic
+
+	partition p6dx-8zbt = m
+		mode: import
+		source =
+				let
+				    Origen = Json.Document(Web.Contents("https://www.datos.gov.co/resource/p6dx-8zbt.json?", [Headers=[#"X-App-Token"=""]])),
+				    #"Convertida en tabla" = Table.FromList(Origen, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Se expandió Column1" = Table.ExpandRecordColumn(#"Convertida en tabla", "Column1", {"entidad", "nit_entidad", "departamento_entidad", "ciudad_entidad", "ordenentidad", "codigo_pci", "id_del_proceso", "referencia_del_proceso", "ppi", "id_del_portafolio", "nombre_del_procedimiento", "descripci_n_del_procedimiento", "fase", "fecha_de_publicacion_del", "fecha_de_ultima_publicaci", "fecha_de_publicacion_fase_3", "fecha_de_publicacion_fase_2", "fecha_de_publicacion", "precio_base", "modalidad_de_contratacion", "justificaci_n_modalidad_de", "duracion", "unidad_de_duracion", "fecha_de_recepcion_de", "fecha_de_apertura_de_respuesta", "fecha_de_apertura_efectiva", "ciudad_de_la_unidad_de", "nombre_de_la_unidad_de", "proveedores_invitados", "proveedores_con_invitacion", "visualizaciones_del", "proveedores_que_manifestaron", "respuestas_al_procedimiento", "respuestas_externas", "conteo_de_respuestas_a_ofertas", "proveedores_unicos_con", "numero_de_lotes", "estado_del_procedimiento", "id_estado_del_procedimiento", "adjudicado", "id_adjudicacion", "codigoproveedor", "departamento_proveedor", "ciudad_proveedor", "fecha_adjudicacion", "valor_total_adjudicacion", "nombre_del_adjudicador", "nombre_del_proveedor", "nit_del_proveedor_adjudicado", "codigo_principal_de_categoria", "estado_de_apertura_del_proceso", "tipo_de_contrato", "subtipo_de_contrato", "categorias_adicionales", "urlproceso", "codigo_entidad", "estado_resumen"}, {"entidad", "nit_entidad", "departamento_entidad", "ciudad_entidad", "ordenentidad", "codigo_pci", "id_del_proceso", "referencia_del_proceso", "ppi", "id_del_portafolio", "nombre_del_procedimiento", "descripci_n_del_procedimiento", "fase", "fecha_de_publicacion_del", "fecha_de_ultima_publicaci", "fecha_de_publicacion_fase_3", "fecha_de_publicacion_fase_2", "fecha_de_publicacion", "precio_base", "modalidad_de_contratacion", "justificaci_n_modalidad_de", "duracion", "unidad_de_duracion", "fecha_de_recepcion_de", "fecha_de_apertura_de_respuesta", "fecha_de_apertura_efectiva", "ciudad_de_la_unidad_de", "nombre_de_la_unidad_de", "proveedores_invitados", "proveedores_con_invitacion", "visualizaciones_del", "proveedores_que_manifestaron", "respuestas_al_procedimiento", "respuestas_externas", "conteo_de_respuestas_a_ofertas", "proveedores_unicos_con", "numero_de_lotes", "estado_del_procedimiento", "id_estado_del_procedimiento", "adjudicado", "id_adjudicacion", "codigoproveedor", "departamento_proveedor", "ciudad_proveedor", "fecha_adjudicacion", "valor_total_adjudicacion", "nombre_del_adjudicador", "nombre_del_proveedor", "nit_del_proveedor_adjudicado", "codigo_principal_de_categoria", "estado_de_apertura_del_proceso", "tipo_de_contrato", "subtipo_de_contrato", "categorias_adicionales", "urlproceso", "codigo_entidad", "estado_resumen"}),
+				    #"Se expandió urlproceso" = Table.ExpandRecordColumn(#"Se expandió Column1", "urlproceso", {"url"}, {"urlproceso.url"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Se expandió urlproceso",{{"entidad", type text}, {"nit_entidad", Int64.Type}, {"departamento_entidad", type text}, {"ciudad_entidad", type text}, {"ordenentidad", type text}, {"codigo_pci", type text}, {"id_del_proceso", type text}, {"referencia_del_proceso", type text}, {"ppi", Int64.Type}, {"id_del_portafolio", type text}, {"nombre_del_procedimiento", type text}, {"descripci_n_del_procedimiento", type text}, {"fase", type text}, {"fecha_de_publicacion_del", type datetime}, {"fecha_de_ultima_publicaci", type datetime}, {"fecha_de_publicacion_fase_3", type datetime}, {"fecha_de_publicacion_fase_2", type datetime}, {"fecha_de_publicacion", type datetime}, {"precio_base", Int64.Type}, {"modalidad_de_contratacion", type text}, {"justificaci_n_modalidad_de", type text}, {"duracion", Int64.Type}, {"unidad_de_duracion", type text}, {"fecha_de_recepcion_de", type datetime}, {"fecha_de_apertura_de_respuesta", type datetime}, {"fecha_de_apertura_efectiva", type datetime}, {"ciudad_de_la_unidad_de", type text}, {"nombre_de_la_unidad_de", type text}, {"proveedores_invitados", Int64.Type}, {"proveedores_con_invitacion", Int64.Type}, {"visualizaciones_del", Int64.Type}, {"proveedores_que_manifestaron", Int64.Type}, {"respuestas_al_procedimiento", Int64.Type}, {"respuestas_externas", Int64.Type}, {"conteo_de_respuestas_a_ofertas", Int64.Type}, {"proveedores_unicos_con", Int64.Type}, {"numero_de_lotes", Int64.Type}, {"estado_del_procedimiento", type text}, {"id_estado_del_procedimiento", Int64.Type}, {"adjudicado", type text}, {"id_adjudicacion", type text}, {"codigoproveedor", type text}, {"departamento_proveedor", type text}, {"ciudad_proveedor", type text}, {"fecha_adjudicacion", type datetime}, {"valor_total_adjudicacion", Int64.Type}, {"nombre_del_adjudicador", type text}, {"nombre_del_proveedor", type text}, {"nit_del_proveedor_adjudicado", type text}, {"codigo_principal_de_categoria", type text}, {"estado_de_apertura_del_proceso", type text}, {"tipo_de_contrato", type text}, {"subtipo_de_contrato", type text}, {"categorias_adicionales", type text}, {"urlproceso.url", type text}, {"codigo_entidad", Int64.Type}, {"estado_resumen", type text}}),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Tipo cambiado",{{"precio_base", Currency.Type}}),
+				    #"Filas ordenadas" = Table.Sort(#"Tipo cambiado1",{{"fecha_de_publicacion_del", Order.Descending}})
+				in
+				    #"Filas ordenadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

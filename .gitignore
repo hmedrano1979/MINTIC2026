@@ -1,0 +1,12 @@
+# Power BI locales
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.pbix
+
+# Streamlit Secrets (NUNCA subir al repo)
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.env

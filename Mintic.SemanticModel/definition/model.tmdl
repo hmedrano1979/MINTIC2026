@@ -1,0 +1,28 @@
+model Model
+	culture: es-MX
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CO
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["p6dx-8zbt"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table p6dx-8zbt
+ref table DateTableTemplate_f80c96e0-f896-47c7-9065-1159530a0e64
+ref table LocalDateTable_263513a6-7095-495a-ace0-27889c4dbc47
+ref table LocalDateTable_eaf087c0-b6f7-466f-a16b-b33538e330d2
+ref table LocalDateTable_c999a0ac-e5c2-42fb-b921-a1da644eaa5b
+ref table LocalDateTable_4661249c-f9d6-4011-bc22-b01eb3f0722a
+ref table LocalDateTable_acf26443-ae71-4551-b0d2-ee756a42698b
+ref table LocalDateTable_2753b114-950b-46f6-b869-7ac2b6d131b7
+ref table LocalDateTable_bc3cef75-0f0c-4376-be86-9ea4a3f9b8f0
+ref table LocalDateTable_cb922931-2765-4103-bec5-8113e35e4ff9
+ref table LocalDateTable_b4bd55e1-5789-4d35-9acb-b7b70b979018
+
+ref cultureInfo es-MX
+
